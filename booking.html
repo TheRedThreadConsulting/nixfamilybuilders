@@ -1,451 +1,327 @@
 <!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-secondary": "#ffffff", "on-primary": "#ffffff", "surface-variant": "#e5e2db", "surface-container-high": "#ebe8e1", "tertiary-fixed": "#c9ead9", "on-primary-container": "#491d00", "outline": "#887367", "on-tertiary-fixed": "#022016", "surface-container-highest": "#e5e2db", "on-tertiary-fixed-variant": "#304d40", "on-secondary-fixed-variant": "#434749", "on-surface-variant": "#554339", "inverse-primary": "#ffb68c", "primary": "#994703", "on-primary-fixed-variant": "#753400", "on-surface": "#1c1c18", "secondary": "#5b5f61", "tertiary-container": "#799889", "surface-tint": "#994703", "surface": "#fcf9f2", "error-container": "#ffdad6", "on-primary-fixed": "#321200", "secondary-fixed-dim": "#c4c7c9", "primary-container": "#d97736", "on-secondary-fixed": "#181c1e", "surface-container-low": "#f6f3ec", "surface-container-lowest": "#ffffff", "on-tertiary": "#ffffff", "on-background": "#1c1c18", "surface-container": "#f1eee7", "primary-fixed-dim": "#ffb68c", "secondary-fixed": "#e0e3e5", "outline-variant": "#dbc1b4", "error": "#ba1a1a", "on-error": "#ffffff", "surface-dim": "#dcdad3", "surface-bright": "#fcf9f2", "inverse-on-surface": "#f3f0e9", "background": "#fcf9f2", "tertiary-fixed-dim": "#adcebe", "tertiary": "#476558", "inverse-surface": "#31312c", "secondary-container": "#dde0e2", "primary-fixed": "#ffdbc9", "on-tertiary-container": "#122f25", "on-error-container": "#93000a", "on-secondary-container": "#5f6365" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-mobile": "0.75rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "margin": "2rem", "space-md": "1rem", "gutter": "1.25rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "space-lg": "1.5rem" }, fontFamily: { "label-lg": ["Work Sans"], "body-md": ["Work Sans"], "headline-sm": ["Oswald"], "headline-xl": ["Oswald"], "headline-xl-mobile": ["Oswald"], "label-sm": ["Work Sans"], "headline-md": ["Oswald"], "headline-lg": ["Oswald"], "body-lg": ["Work Sans"], "title-md": ["Oswald"], "label-md": ["Work Sans"], "body-sm": ["Work Sans"], "headline-lg-mobile": ["Oswald"] }, fontSize: { "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0.25px", "fontWeight": "500"}], "headline-xl": ["52px", {"lineHeight": "60px", "letterSpacing": "0.5px", "fontWeight": "700"}], "headline-xl-mobile": ["34px", {"lineHeight": "40px", "letterSpacing": "0.5px", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.75px", "fontWeight": "600"}], "headline-md": ["26px", {"lineHeight": "34px", "letterSpacing": "0.5px", "fontWeight": "600"}], "headline-lg": ["38px", {"lineHeight": "46px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "title-md": ["17px", {"lineHeight": "24px", "letterSpacing": "0.75px", "fontWeight": "500"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "0.5px", "fontWeight": "600"}] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="nixfamilysimpletoolslogo.jpg" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WU3VTWVqy3gkLn9jC8IVnMISwbBTFcBPxPfB03V6ZuSbnc0rWv0G6VAofr94BlYDHa0U7-ZazdRvDidwY8qo7AgXuU1J4m9mHyT0Dm_O6JFTEvsrB-FCdXHt2cIylygNXabePmgRZ4vLtiCUAC389VpmeD-oyh70FcnGR23ZCFmlLLFdH_Sezii3s-_4k1Z3sV3xfIpTzas_QyBUw7VHY5dFHByKSE37vBSTJOwFQ7yUz7MXveAunMbWrIfz_Q7XWF5zaeGwwV1w"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-none tracking-tight">Nix Family</span><span class="font-label-sm text-label-sm uppercase text-primary font-bold tracking-widest leading-none">Builders LLC</span></div></div><div class="flex items-center gap-space-sm"><a class="min-h-[44px] min-w-[44px] px-space-sm py-space-xs bg-primary text-on-primary rounded-lg flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors shadow-[0_3px_0px_0px_rgba(30,34,36,0.08)]" href="tel:5556492537" title="Call Nix Family Builders (555) 649-2537" aria-label="Call Nix Family Builders at 555-649-2537"><span class="material-symbols-outlined text-[18px]">call</span><span class="hidden xs:inline">Estimate</span></a><a href="index.html" aria-label="Home" title="Home" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-primary-container transition-colors shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">home</span></a></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface"><div class="flex flex-col w-full">
-<!-- Header Intro Hero Section -->
-<section class="flex flex-col px-margin-mobile pt-space-md pb-space-lg bg-surface">
-<!-- Trust Pill -->
-<div class="inline-flex items-center gap-space-xs self-start px-space-sm py-space-xs rounded-full bg-surface-container-high text-on-surface-variant mb-space-sm shadow-sm">
-<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">verified</span>
-<span class="font-label-sm text-label-sm uppercase tracking-wider">Licensed &amp; Insured Local Craftsmanship</span>
-</div>
-<!-- Intro Text Hierarchy -->
-<h1 class="font-headline-xl-mobile text-headline-xl-mobile uppercase text-on-surface tracking-tight leading-none mb-space-xs">
-      Our Complete Services
-    </h1>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
-      From land and outdoor projects to interior renovations and exterior upgrades, we're here to get the job done right.
-    </p>
-<!-- Delight Incentive Banner -->
-<!-- Category Quick Jump Chips -->
-<div class="flex items-center gap-space-xs mt-space-md overflow-x-auto pb-space-xs scrollbar-none">
-<a class="min-h-[40px] shrink-0 px-space-md py-space-xs rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center gap-space-xs hover:bg-surface-variant transition-colors active:scale-95 shadow-sm" href="#home-services">
-<span class="material-symbols-outlined text-[18px] text-primary">roofing</span>
-<span class="">Home Services (12)</span>
-</a>
-<a class="min-h-[40px] shrink-0 px-space-md py-space-xs rounded-full bg-tertiary text-on-tertiary font-label-md text-label-md uppercase tracking-wider flex items-center gap-space-xs hover:bg-on-tertiary-container transition-colors active:scale-95 shadow-sm" href="#property-services">
-<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">yard</span>
-<span class="">Land &amp; Property (11)</span>
-</a>
-</div>
-</section>
-<!-- Visual Service Menu Image Callout -->
-<section class="px-margin-mobile pb-space-md">
-</section>
-<!-- CATEGORY 1: HOME SERVICES -->
-<section class="px-margin-mobile py-space-lg bg-surface-container-low flex flex-col gap-space-md scroll-mt-20" id="home-services">
-<div class="flex flex-col gap-space-xs">
-<div class="flex items-center gap-space-xs text-primary">
-<span class="material-symbols-outlined text-[24px]">cottage</span>
-<span class="font-label-sm text-label-sm uppercase tracking-widest font-bold">Category 01</span>
-</div>
-<h2 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-surface tracking-tight">
-        🏡 Home Services
-      </h2>
-<p class="font-body-md text-body-md text-on-surface-variant">
-        Structural construction, durable weatherproofing, custom millwork, and refined interior finishes built to withstand generations.
-      </p>
-</div>
-<!-- Interior & Exterior Grid Cards -->
-<div class="grid grid-cols-2 gap-space-sm">
-<!-- 1. Shingles & Roofing -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-md border-2 border-primary relative overflow-hidden transition-all"><div class="absolute top-0 right-0 bg-primary text-on-primary px-space-xs py-0.5 rounded-bl-lg flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span><span class="font-label-sm text-[10px] uppercase font-bold tracking-wider">Added</span></div><div class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">roofing</span></div><span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Shingles &amp; Roofing</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Leak diagnostics, structural storm repair, &amp; full shingle installations.</p><span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">check_circle</span> Selected for Quote</span></div>
-<!-- 2. Exterior Painting -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">format_paint</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Exterior Painting</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Weather-resistant coatings, trim revitalization, &amp; clean masking.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Protective
-        </span>
-</div>
-<!-- 3. Siding -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">view_agenda</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Siding</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Vinyl, hardie-plank, &amp; wood lap siding installation &amp; patch repair.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Weatherproof
-        </span>
-</div>
-<!-- 4. Decks -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-md border-2 border-primary relative overflow-hidden transition-all"><div class="absolute top-0 right-0 bg-primary text-on-primary px-space-xs py-0.5 rounded-bl-lg flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span><span class="font-label-sm text-[10px] uppercase font-bold tracking-wider">Added</span></div><div class="w-9 h-9 rounded-lg bg-primary text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">deck</span></div><span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Decks</span><p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Custom treated timber builds, multi-tier platforms, &amp; structural rebuilds.</p><span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">check_circle</span> Selected for Quote</span></div>
-<!-- 5. Porches -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">balcony</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Porches</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Welcoming front porches, screened outdoor lounges, &amp; ceiling framing.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Outdoor
-        </span>
-</div>
-<!-- 6. Awnings -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">store</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Awnings</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Sturdy timber &amp; metal entry porticos, shade overhangs, &amp; anchors.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Shelter
-        </span>
-</div>
-<!-- 7. Flooring -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">layers</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Flooring</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Hardwood, luxury vinyl plank (LVP), laminate, and subfloor leveling.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Interior
-        </span>
-</div>
-<!-- 8. Tile Work -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">grid_view</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Tile Work</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Bathroom shower stalls, kitchen backsplashes, &amp; heavy traffic floor tiling.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Precision
-        </span>
-</div>
-<!-- 9. Interior Painting -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">brush</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Interior Painting</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Flawless cut-ins, two-coat durability, baseboards, doors, &amp; crown moulding.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Finishes
-        </span>
-</div>
-<!-- 10. Cabinet Painting -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">countertops</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Cabinet Painting</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Fine spray factory-smooth finishes that transform kitchens on budget.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Renovation
-        </span>
-</div>
-<!-- 11. Drywall -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">square_foot</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Drywall</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Hanging sheetrock, tape &amp; mudding, texture blending, &amp; ceiling patch repair.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Seamless
-        </span>
-</div>
-<!-- 12. Shiplap -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex flex-col gap-space-xs shadow-sm hover:shadow-md transition-shadow">
-<div class="w-9 h-9 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center">
-<span class="material-symbols-outlined text-[20px]">carpenter</span>
-</div>
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-tight">Shiplap</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">Rustic &amp; modern accent walls, fireplace focal points, &amp; master suites.</p>
-<span class="mt-auto pt-space-xs font-label-sm text-label-sm uppercase text-primary font-bold flex items-center gap-1">
-<span class="material-symbols-outlined text-[14px]">check_circle</span> Custom
-        </span>
-</div>
-</div>
-</section>
-<!-- CATEGORY 2: PROPERTY & LAND SERVICES -->
-<section class="px-margin-mobile py-space-lg bg-surface flex flex-col gap-space-md scroll-mt-20" id="property-services">
-<div class="flex flex-col gap-space-xs">
-<div class="flex items-center gap-space-xs text-tertiary">
-<span class="material-symbols-outlined text-[24px]">nature</span>
-<span class="font-label-sm text-label-sm uppercase tracking-widest font-bold">Category 02</span>
-</div>
-<h2 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-surface tracking-tight">
-        🌿 Property &amp; Land Services
-      </h2>
-<p class="font-body-md text-body-md text-on-surface-variant">
-        Heavy machinery operators for rural parcels, acreages, and residential lots. Ground clearing, earthmoving, and estate upkeep.
-      </p>
-</div>
-<!-- Machinery & Land Stacked Directory -->
-<div class="flex flex-col gap-space-sm">
-<!-- 1. Lawn Care -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">yard</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Lawn Care</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Maintenance</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Regular scheduled mowing, edging, seasonal scalping, and turf upkeep.</p>
-</div>
-</div>
-<!-- 2. Landscaping -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">potted_plant</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Landscaping</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Design</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Bed mulching, sod installation, planting, retaining borders, and grading.</p>
-</div>
-</div>
-<!-- 3. Land Clearing -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex items-start gap-space-md shadow-md border-2 border-primary relative overflow-hidden"><div class="absolute top-0 right-0 bg-primary text-on-primary px-space-xs py-0.5 rounded-bl-lg flex items-center gap-0.5"><span class="material-symbols-outlined text-[14px]">check</span><span class="font-label-sm text-[10px] uppercase font-bold tracking-wider">Added</span></div><div class="w-10 h-10 rounded-lg bg-primary text-on-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-[22px]">forest</span></div><div class="flex flex-col min-w-0 flex-1"><div class="flex items-center justify-between pr-14"><span class="font-headline-sm text-headline-sm uppercase text-on-surface">Land Clearing</span><span class="font-label-sm text-label-sm uppercase text-primary font-bold">Selected</span></div><p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Full lot reclamation, overgrowth eradication, and preparation for home pads.</p></div></div>
-<!-- 4. Bush Hogging -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">agriculture</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Bush Hogging</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Field Care</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Tough brush mowing, dense pasture clearing, and boundary path management.</p>
-</div>
-</div>
-<!-- 5. Tree Removal -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">park</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Tree Removal</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Controlled</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Hazardous leaning trees, storm timber extraction, and precision canopy cuts.</p>
-</div>
-</div>
-<!-- 6. Stump Removal -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">deceased</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Stump Removal</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Sub-Surface</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Deep mechanical grinding and root pocket removal flush with grade.</p>
-</div>
-</div>
-<!-- 7. Gravel & Dirt Work -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">landscape</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Gravel &amp; Dirt Work</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Site Prep</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Crushed run spreading, pad backfills, slope contouring, and erosion swales.</p>
-</div>
-</div>
-<!-- 8. Driveway Grading -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">alt_route</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Driveway Grading</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Drainage</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Crown restoration, pothole leveling, culvert packing, &amp; aggregate refresh.</p>
-</div>
-</div>
-<!-- 9. Debris & Garbage Removal -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">delete_sweep</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Debris &amp; Garbage Removal</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Hauling</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Post-construction roll-away, estate junk cleanouts, and brush pile disposal.</p>
-</div>
-</div>
-<!-- 10. Fencing -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">fence</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Fencing</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Perimeter</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Farm wire, post-and-rail, privacy wood fencing, gates, &amp; post augering.</p>
-</div>
-</div>
-<!-- 11. Skid Steer & Tractor Work -->
-<div class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md shadow-sm">
-<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[22px]">precision_manufacturing</span>
-</div>
-<div class="flex flex-col min-w-0 flex-1">
-<div class="flex items-center justify-between">
-<span class="font-headline-sm text-headline-sm uppercase text-on-surface">Skid Steer &amp; Tractor Work</span>
-<span class="font-label-sm text-label-sm uppercase text-tertiary font-bold">Heavy Iron</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">Track loader grading, pallet unloading, hydraulic auger holes, and material moves.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Section: Why Choose Nix Family Builders? -->
-<section class="px-margin-mobile py-space-lg bg-surface-container-high flex flex-col gap-space-md">
-<div class="flex items-center gap-space-md">
-<div class="w-16 h-16 rounded-xl bg-surface-container-lowest p-space-xs shrink-0 shadow-sm flex items-center justify-center">
-<img alt="Nix Family Builders Official Emblem" class="w-full h-full object-contain rounded-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcKh9LKuFLLvCKSNop4VFst2jVCbSegWJReCNyhO28UZ39YDbITr89FIOu1YmrAjxM5cCoFarcBCpJvG69ht9l4U-B9xUjb1HU68ZJRXI60t3Ti1rG5anBeRrNLXoQwKbtn51dvxAjKVwTrBiBld48g_BsVJyaWUTbl1tmoEK4TFEWtgPj585RMkrgC_8gEaINMopqj2LK8HiYvvOpRdFlFZI9oISYAKKpnVp1SDPk6Ur5YNFolJrbjw_iLnRm0hcVqQ">
-</div>
-<div class="flex flex-col">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-secondary": "#ffffff", "on-primary": "#ffffff", "surface-variant": "#e5e2db", "surface-container-high": "#ebe8e1", "tertiary-fixed": "#c9ead9", "on-primary-container": "#491d00", "outline": "#887367", "on-tertiary-fixed": "#022016", "surface-container-highest": "#e5e2db", "on-tertiary-fixed-variant": "#304d40", "on-secondary-fixed-variant": "#434749", "on-surface-variant": "#554339", "inverse-primary": "#ffb68c", "primary": "#994703", "on-primary-fixed-variant": "#753400", "on-surface": "#1c1c18", "secondary": "#5b5f61", "tertiary-container": "#799889", "surface-tint": "#994703", "surface": "#fcf9f2", "error-container": "#ffdad6", "on-primary-fixed": "#321200", "secondary-fixed-dim": "#c4c7c9", "primary-container": "#d97736", "on-secondary-fixed": "#181c1e", "surface-container-low": "#f6f3ec", "surface-container-lowest": "#ffffff", "on-tertiary": "#ffffff", "on-background": "#1c1c18", "surface-container": "#f1eee7", "primary-fixed-dim": "#ffb68c", "secondary-fixed": "#e0e3e5", "outline-variant": "#dbc1b4", "error": "#ba1a1a", "on-error": "#ffffff", "surface-dim": "#dcdad3", "surface-bright": "#fcf9f2", "inverse-on-surface": "#f3f0e9", "background": "#fcf9f2", "tertiary-fixed-dim": "#adcebe", "tertiary": "#476558", "inverse-surface": "#31312c", "secondary-container": "#dde0e2", "primary-fixed": "#ffdbc9", "on-tertiary-container": "#122f25", "on-error-container": "#93000a", "on-secondary-container": "#5f6365" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "gutter-mobile": "0.75rem", "margin-mobile": "1rem", "space-xl": "2.5rem", "margin": "2rem", "space-md": "1rem", "gutter": "1.25rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "space-lg": "1.5rem" }, fontFamily: { "label-lg": ["Work Sans"], "body-md": ["Work Sans"], "headline-sm": ["Oswald"], "headline-xl": ["Oswald"], "headline-xl-mobile": ["Oswald"], "label-sm": ["Work Sans"], "headline-md": ["Oswald"], "headline-lg": ["Oswald"], "body-lg": ["Work Sans"], "title-md": ["Oswald"], "label-md": ["Work Sans"], "body-sm": ["Work Sans"], "headline-lg-mobile": ["Oswald"] }, fontSize: { "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0.25px", "fontWeight": "500"}], "headline-xl": ["52px", {"lineHeight": "60px", "letterSpacing": "0.5px", "fontWeight": "700"}], "headline-xl-mobile": ["34px", {"lineHeight": "40px", "letterSpacing": "0.5px", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.75px", "fontWeight": "600"}], "headline-md": ["26px", {"lineHeight": "34px", "letterSpacing": "0.5px", "fontWeight": "600"}], "headline-lg": ["38px", {"lineHeight": "46px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "title-md": ["17px", {"lineHeight": "24px", "letterSpacing": "0.75px", "fontWeight": "500"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.5px", "fontWeight": "600"}], "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg-mobile": ["26px", {"lineHeight": "32px", "letterSpacing": "0.5px", "fontWeight": "600"}] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="nixfamilysimpletoolslogo.jpg" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WU3VTWVqy3gkLn9jC8IVnMISwbBTFcBPxPfB03V6ZuSbnc0rWv0G6VAofr94BlYDHa0U7-ZazdRvDidwY8qo7AgXuU1J4m9mHyT0Dm_O6JFTEvsrB-FCdXHt2cIylygNXabePmgRZ4vLtiCUAC389VpmeD-oyh70FcnGR23ZCFmlLLFdH_Sezii3s-_4k1Z3sV3xfIpTzas_QyBUw7VHY5dFHByKSE37vBSTJOwFQ7yUz7MXveAunMbWrIfz_Q7XWF5zaeGwwV1w"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-on-surface leading-none tracking-tight">Nix Family</span><span class="font-label-sm text-label-sm uppercase text-primary font-bold tracking-widest leading-none">Builders LLC</span></div></div><div class="flex items-center gap-space-sm"><a class="min-h-[44px] min-w-[44px] px-space-sm py-space-xs bg-primary text-on-primary rounded-lg flex items-center gap-space-xs font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors shadow-[0_3px_0px_0px_rgba(30,34,36,0.08)]" href="tel:1234567890"><span class="material-symbols-outlined text-[18px]">call</span><span class="hidden xs:inline">Estimate</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface"><div class="flex flex-col w-full pb-space-xl">
+<!-- Hero Section -->
+<section class="relative px-margin-mobile pt-space-md pb-space-lg flex flex-col gap-space-md bg-surface-container-low">
+<!-- Trust Badge Pill -->
+<div class="inline-flex items-center self-start gap-space-xs px-space-sm py-1 bg-surface-container-highest rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">verified_user</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-bold">Family Owned &amp; Operated • Licensed &amp; Insured</span>
+</div>
+<!-- Mascot Showcase Card -->
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container p-space-md shadow-md flex items-center gap-space-md">
+<div class="relative w-28 h-36 shrink-0 rounded-lg overflow-hidden bg-primary-fixed flex items-center justify-center shadow-inner">
+<img alt="Nix Family Builders Mascot Emblem" class="w-full h-full object-cover object-top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAupu55UULFeETHpXD-amX03vdNg-Sojn6z94MQsGMDs2PTgfD_2p7C4KUV6FUcODzaIU-jsQA2tLmEQysLoEoOKIYbrE2sNwx5-GnDyTuHyv3JnbsiHF4A7GuzkAtNYrrWsiODpAV9K6XdowO4imHmw6fwTz47e-pUQEig6P1gKouC2uFTuSl4sZtirw77Wrt7YSfaYqR8D0uu2wmKE6-33u6PoeVcMgE_tAqo4UyUEdP-AI2D-zbD_angSgDY7CXQCA">
+</div>
+<div class="flex flex-col justify-center min-w-0">
 <span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Generational Craft</span>
-<h3 class="font-headline-md text-headline-md uppercase text-on-surface leading-tight">Why Choose Nix Family Builders?</h3>
-</div>
-</div>
-<!-- 3 Core Pillars -->
-<div class="flex flex-col gap-space-sm mt-space-xs">
-<!-- Pillar 1 -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
-<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[18px]">family_restroom</span>
-</div>
-<div class="flex flex-col">
-<span class="font-title-md text-title-md uppercase text-on-surface font-semibold">Family-Owned Accountability</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
-            We put our family name on every nail, trench, and paint coat. You speak directly with the builders on-site, ensuring honest communication and clear timelines without corporate runaround.
-          </p>
-</div>
-</div>
-<!-- Pillar 2 -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
-<div class="w-8 h-8 rounded-full bg-tertiary/15 text-tertiary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[18px]">handyman</span>
-</div>
-<div class="flex flex-col">
-<span class="font-title-md text-title-md uppercase text-on-surface font-semibold">Versatile Heavy Equipment &amp; Fine Carpentry</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
-            Uniquely equipped to run heavy excavators and skid steers in the morning, then step inside your home for precision shiplap, tile work, and kitchen cabinetry in the afternoon.
-          </p>
-</div>
-</div>
-<!-- Pillar 3 -->
-<div class="p-space-md rounded-xl bg-surface-container-lowest flex items-start gap-space-sm shadow-sm">
-<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-[18px]">request_quote</span>
-</div>
-<div class="flex flex-col">
-<span class="font-title-md text-title-md uppercase text-on-surface font-semibold">Free On-Site Estimates</span>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
-            No guessing or surprise hidden fees. We walk your ground, measure your rooms, assess real site conditions, and deliver transparent pricing backed by honest handshakes.
-          </p>
+<span class="font-headline-md text-headline-md text-on-surface uppercase leading-none mt-0.5">Built Solid. Guaranteed.</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">Direct contractor reliability, boots-on-the-ground work ethic, and honest handshake values.</p>
+<div class="flex items-center gap-1 mt-2 text-primary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold ml-1">5.0 Local Trust</span>
 </div>
 </div>
 </div>
-</section>
-<!-- Interactive Project Cost Estimator Widget -->
-<section class="px-margin-mobile py-space-lg bg-surface">
-<div class="rounded-xl bg-surface-container p-space-md shadow-md flex flex-col gap-space-sm"><div class="flex items-center justify-between"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[22px]">tune</span><span class="font-headline-sm text-headline-sm uppercase text-on-surface">Select Project Needs</span></div><span class="font-label-sm text-label-sm uppercase bg-primary text-on-primary px-space-xs py-0.5 rounded font-bold shadow-sm" id="selected-count">3 Selected</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Tap items to add or remove services from your multi-project estimate:</p><div class="flex flex-wrap gap-space-xs mt-space-xs" id="bundle-selector"><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm font-bold" data-service="Roofing" type="button"><span class="">✓ Shingles &amp; Roofing</span><span class="material-symbols-outlined text-[16px] text-on-primary/80">close</span></button><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm font-bold" data-service="Decks" type="button"><span class="">✓ Decks &amp; Porches</span><span class="material-symbols-outlined text-[16px] text-on-primary/80">close</span></button><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm transition-all" data-service="Interior Finish" type="button"><span class="">+ Cabinets &amp; Shiplap</span></button><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm font-bold" data-service="Land Clearing" type="button"><span class="">✓ Land Clearing / Bush Hog</span><span class="material-symbols-outlined text-[16px] text-on-primary/80">close</span></button><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm transition-all" data-service="Driveway" type="button"><span class="">+ Driveway Grading &amp; Dirt</span></button><button class="service-pill min-h-[36px] px-space-sm py-space-xs rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm uppercase tracking-wide flex items-center gap-1 shadow-sm transition-all" data-service="Fencing" type="button"><span class="">+ Fencing &amp; Tree Removal</span></button></div><div class="mt-space-xs p-space-sm rounded-lg bg-primary-fixed text-on-primary-fixed font-body-sm text-body-sm flex items-center justify-between gap-space-xs" id="bundle-feedback"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-primary text-[20px]">verified</span><span class=""><strong>Multi-Project Discount:</strong> 3 services bundled for combined travel &amp; crew staging.</span></div><span class="font-label-sm text-label-sm text-primary uppercase font-bold underline shrink-0">Clear All</span></div></div>
-</section>
-<!-- Primary Call to Action Section -->
-<section class="px-margin-mobile pt-space-sm pb-space-xl bg-surface flex flex-col gap-space-md">
-<div class="rounded-xl bg-inverse-surface text-inverse-on-surface p-space-lg shadow-xl relative overflow-hidden flex flex-col gap-space-md">
-<!-- Top Crest Emblem & Contact Heading -->
-<div class="flex items-center gap-space-sm z-10">
-<div class="w-12 h-12 rounded-full bg-surface-container-lowest p-1 flex items-center justify-center shrink-0">
-<img alt="Nix Family Builders Tools Icon" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAfUNtRZAn_SrVZ0iX1gepEpTtFOu89SKk8T1TETI1O_SUmitD6ZbsXsmetQvpbA465SIY2lIJJuf0wiIqKxxwMwS0AmEpTaH-BfguhUc4gTUkj3ehFqgi6g2lQLjt8FstJdW7GBJkR53ejtd2mB1mzMgWuzfz1ZsT2Z3zYJhA0kImklK5Zx8XaXv1nuTVJveA53ABIehr7pd9qnVZhHO4xWphqscWLXYeIUuST8grKrlOKQatcco3lXFeB677VcNLkQ">
-</div>
-<div class="flex flex-col">
-<span class="font-label-sm text-label-sm uppercase tracking-widest text-inverse-primary font-bold">Personalized Service</span>
-<h3 class="font-headline-md text-headline-md uppercase text-inverse-on-surface leading-tight">Ready to Start Your Project?</h3>
-</div>
-</div>
-<!-- Verbatim Subtext / Prompt copy -->
-<p class="font-body-md text-body-md text-inverse-on-surface/90 z-10">
-        Contact Chrissy &amp; The Nix Family Team today for a free on-site estimate.
+<!-- Headlines -->
+<div class="flex flex-col gap-space-xs mt-1">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-surface leading-tight tracking-tight">
+        Helping Homeowners <span class="text-primary">Transform, Maintain</span>, and Improve Their Properties.
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        From land and outdoor projects to interior renovations and exterior upgrades, we're here to get the job done right.
       </p>
-<!-- Action Buttons Pair -->
-<div class="flex flex-col gap-space-sm z-10 pt-space-xs">
-<!-- Request Estimate CTA (links to estimate/home form) -->
-<a class="min-h-[48px] w-full px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm uppercase tracking-wider text-center flex items-center justify-center gap-space-xs shadow-md hover:bg-primary transition-transform active:scale-[0.98]" href="#request-estimate">
-<span class="material-symbols-outlined text-[20px]">assignment</span>
-<span class="">Request an Estimate</span>
+</div>
+<!-- Quick Action CTAs -->
+<div class="grid grid-cols-2 gap-space-sm mt-1">
+<a class="min-h-[48px] px-space-md py-space-xs bg-primary text-on-primary rounded-lg flex items-center justify-center gap-space-xs font-label-lg text-label-lg uppercase tracking-wider shadow-md hover:bg-primary-container transition-all active:translate-y-0.5" href="#estimate-form">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+<span class="">Free Estimate</span>
 </a>
-<!-- Direct Tap-to-Call Phone Button -->
-<a class="min-h-[48px] w-full px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-on-surface font-headline-sm text-headline-sm uppercase tracking-wider text-center flex items-center justify-center gap-space-xs shadow-md hover:bg-surface-container-high transition-transform active:scale-[0.98]" href="tel:1234567890">
-<span class="material-symbols-outlined text-primary text-[20px]">phone_in_talk</span>
-<span class="">Call FOR INFO: (123) 456-7890</span>
+<a class="min-h-[48px] px-space-md py-space-xs bg-inverse-surface text-inverse-on-surface rounded-lg flex items-center justify-center gap-space-xs font-label-lg text-label-lg uppercase tracking-wider shadow-md hover:bg-surface-dim transition-all active:translate-y-0.5" href="tel:5556492537">
+<span class="material-symbols-outlined text-[20px] text-primary-fixed">call</span>
+<span class="">(555) NIX-BLDR</span>
 </a>
 </div>
-<!-- Trust assurances -->
-<div class="flex items-center justify-center gap-space-md pt-space-xs text-inverse-on-surface/70 text-center font-label-sm text-label-sm uppercase tracking-wider z-10">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> Fast Callback</span>
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-tertiary-fixed">check</span> No Obligation</span>
+<!-- Referral Banner -->
+
+</section>
+<!-- Value Props / Trust Indicators -->
+<section class="px-margin-mobile py-space-lg flex flex-col gap-space-sm">
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Card 1 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">handyman</span>
 </div>
-<!-- Faint Blueprint Grid in CTA Background -->
-<div class="absolute -right-8 -bottom-10 opacity-10 pointer-events-none">
-<svg fill="currentColor" height="220" viewBox="0 0 100 100" width="220">
-<circle cx="50" cy="50" fill="none" r="48" stroke="white" stroke-width="2"></circle>
-<path d="M50 0 L50 100 M0 50 L100 50" stroke="white" stroke-width="1.5"></path>
-</svg>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md uppercase text-on-surface">Reliable Craftsmanship</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Master carpenter standards on every nail, beam, finish coat, and gravel layer.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed text-on-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">agriculture</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md uppercase text-on-surface">All-in-One Solutions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">From heavy machinery skid steer land work to detailed interior tile and drywall perfection.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: &quot;FILL&quot; 1;">receipt_long</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-title-md text-title-md uppercase text-on-surface">Transparent &amp; Honest</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Itemized clear proposals, straightforward timelines, and direct family accountability.</p>
+</div>
 </div>
 </div>
 </section>
+<!-- Photo Showcase Gallery -->
+<section class="px-margin-mobile pb-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-sm text-headline-sm uppercase text-on-surface">Recent Field Work</h2>
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">On-Site Photos</span>
 </div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="relative h-36 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Close-up of newly installed warm red cedar wood deck with sturdy timber railings overlooking a clean green suburban lawn bathed in afternoon sunlight with professional carpentry craft." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBro3v8E8_jtdrp6ZdTHPF2WqsCN0htHCqMBEp05TE-mteoMb6yQXZLd4j8kFtbWXQ3L5PYQRrg4M-kPx80OB2y-hHv70DCkZy-c0ffzD_K0iW4mN3AXgkM7xdUTj-yHve6Yxgqx7V3MOdJXfCt5iPJAaZEzAjZc0IglEe9It-TQl9DawvwqheYwtoZXBvkY7UeqTM8uOODFEf1b8WELEqrC0ZP8wgizbcA3FgUSG7KR7esJA0qZT9o">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-space-xs">
+<span class="font-label-sm text-label-sm text-on-primary uppercase font-bold">Custom Decking</span>
+</div>
+</div>
+<div class="relative h-36 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Heavy duty yellow skid steer compact loader clearing soil and leveling fresh gravel driveway on a wooded residential property with tall pine trees under sunny sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8nvbu6dKq-UE6ndwPFZ42SbxmLosUHriLR4xeyNMdtSIyjs-VUYgoR3kyrIwPmOOKA1JrGMk5CKS9bublaD1ZNoNNt5zhWV-FCLBEXqIOJIXyqH8E_2KovChvfyBLkhwcMbVH2q6McM8KZDXUi7an26fvEJV3B6mx3s4HVSmI50UE1xnKHNUisWZsYxF20qg072b7LBuWusyuu004MNANCIjxG3c3H3qqb7LvhYl-2cJrR1lBxR3v">
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-space-xs">
+<span class="font-label-sm text-label-sm text-on-primary uppercase font-bold">Land Clearing</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Overview of Core Services -->
+<section class="px-margin-mobile pb-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Comprehensive Capabilities</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-surface">Core Service Pillars</h2>
+</div>
+<!-- Pillar 1: Home Services -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">roofing</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">🏡 Home Services</h3>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Interior &amp; Exterior Building</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Structural preservation, architectural enhancements, and interior finish remodeling handled with clean job-site discipline.
+      </p>
+<div class="grid grid-cols-2 gap-x-space-sm gap-y-1 mt-1 text-on-surface">
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Roofing &amp; Gutters</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Siding &amp; Trim</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Decks &amp; Porches</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Interior Painting</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Flooring &amp; Hardwood</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">check_circle</span>
+<span class="">Tile &amp; Drywall</span>
+</div>
+</div>
+</div>
+<!-- Pillar 2: Property & Land Services -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-fixed text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">forest</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface">🌿 Property &amp; Land Services</h3>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Outdoor Prep &amp; Earthwork</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        High-horsepower solutions for acreage, backyards, access roads, overgrowth clearing, and terrain grading.
+      </p>
+<div class="grid grid-cols-2 gap-x-space-sm gap-y-1 mt-1 text-on-surface">
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Landscaping</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Land Clearing</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Tree &amp; Stump Removal</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Gravel &amp; Dirt Work</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Skid Steer Grading</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span class="">Culverts &amp; Drainage</span>
+</div>
+</div>
+</div>
+<!-- Catalog CTA Link -->
+<a class="min-h-[44px] flex items-center justify-between p-space-sm px-space-md bg-surface-container-high rounded-lg text-on-surface hover:bg-surface-container-highest transition-colors shadow-sm" href="#full-services">
+<span class="font-label-lg text-label-lg uppercase tracking-wider font-bold">View Full Services Catalog</span>
+<span class="material-symbols-outlined text-primary text-[20px]">arrow_forward</span>
+</a>
+</section>
+<!-- Request Estimate Form Section -->
+<section class="px-margin-mobile pb-space-lg flex flex-col gap-space-md" id="estimate-form">
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-lg flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase font-bold tracking-wider">
+<span class="material-symbols-outlined text-[18px]">edit_calendar</span>
+<span class="">Prompt 24-Hour Reply</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile uppercase text-on-surface">Request Your Free Estimate</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Tell us about your project — whether home upgrades or land clearing, we'll get back to you promptly.
+        </p>
+</div>
+<!-- Live Interactive Form -->
+<form class="flex flex-col gap-space-sm" id="quote-form" onsubmit="handleFormSubmit(event)">
+<!-- Full Name -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="full-name">Full Name *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-[20px] text-outline">badge</span>
+<input class="w-full h-12 pl-10 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="full-name" placeholder="John Doe" required="" type="text">
+</div>
+</div>
+<!-- Phone & Email -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="phone-number">Phone Number *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-[20px] text-outline">call</span>
+<input class="w-full h-12 pl-10 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="phone-number" placeholder="(555) 000-0000" required="" type="tel">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="email-addr">Email Address *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-[20px] text-outline">mail</span>
+<input class="w-full h-12 pl-10 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="email-addr" placeholder="john@example.com" required="" type="email">
+</div>
+</div>
+</div>
+<!-- Project Type Dropdown -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="project-type">Project Type *</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-[20px] text-outline pointer-events-none">category</span>
+<select class="w-full h-12 pl-10 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="project-type" required="">
+<option disabled="" selected="" value="">Select Primary Need...</option>
+<option value="renovation">Home Renovation &amp; Repair</option>
+<option value="roofing">Roofing &amp; Siding</option>
+<option value="painting">Painting (Interior/Exterior)</option>
+<option value="decks">Decks &amp; Porches</option>
+<option value="land-clearing">Land Clearing &amp; Dirt Work</option>
+<option value="tree-stump">Tree &amp; Stump Removal</option>
+<option value="other">Other Custom Build</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-outline pointer-events-none">arrow_drop_down</span>
+</div>
+</div>
+<!-- Preferred Timeline -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="project-timeline">Preferred Timeline</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-[20px] text-outline pointer-events-none">calendar_month</span>
+<select class="w-full h-12 pl-10 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm" id="project-timeline">
+<option value="urgent">Immediately / Urgent Repair</option>
+<option value="month">Within Next 30 Days</option>
+<option value="quarter">1 - 3 Months</option>
+<option value="flexible">Flexible / Planning Phase</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-outline pointer-events-none">arrow_drop_down</span>
+</div>
+</div>
+<!-- Project Details -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md uppercase text-on-surface font-semibold" for="project-details">Project Details / Description</label>
+<textarea class="w-full p-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary shadow-sm resize-none" id="project-details" placeholder="Approximate dimensions, materials preferred, property access notes..." rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="min-h-[48px] mt-2 px-space-lg py-space-sm bg-primary text-on-primary rounded-lg flex items-center justify-center gap-space-xs font-label-lg text-label-lg uppercase tracking-wider shadow-md hover:bg-primary-container transition-all active:translate-y-0.5 cursor-pointer" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="">Submit Estimate Request</span>
+</button>
+</form>
+<!-- Success Notification Box -->
+<div class="hidden p-space-md bg-tertiary-fixed text-on-tertiary-fixed rounded-xl flex items-center gap-space-sm" id="form-success">
+<span class="material-symbols-outlined text-[24px] text-tertiary">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg uppercase font-bold">Request Received!</span>
+<span class="font-body-sm text-body-sm">A Nix family estimator will call you within 24 hours.</span>
+</div>
+</div>
+<!-- Direct Contact Card Alternative -->
+<div class="pt-space-sm flex flex-col gap-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="font-label-sm text-label-sm uppercase font-bold text-on-surface-variant tracking-wider">Direct Contractor Desk</span>
+<div class="grid grid-cols-1 gap-2 text-on-surface font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">phone_in_talk</span>
+<span class="">Direct Call: <strong>(555) 649-2537</strong></span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">schedule</span>
+<span class="">Working Hours: Mon–Sat 7:00 AM – 6:30 PM</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary">my_location</span>
+<span class="">Headquarters: County-Wide Service Fleet</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive script for form state -->
 <script>
-  (function() {
-    const pills = document.querySelectorAll('.service-pill');
-    const badge = document.getElementById('selected-count');
-    const feedback = document.getElementById('bundle-feedback');
-    const selected = new Set();
-
-    pills.forEach(pill => {
-      pill.addEventListener('click', () => {
-        const serviceName = pill.dataset.service;
-        if (selected.has(serviceName)) {
-          selected.delete(serviceName);
-          pill.classList.remove('bg-primary', 'text-on-primary', 'font-bold');
-          pill.classList.add('bg-surface-container-lowest', 'text-on-surface');
-          pill.querySelector('span').textContent = '+ ' + serviceName;
-        } else {
-          selected.add(serviceName);
-          pill.classList.remove('bg-surface-container-lowest', 'text-on-surface');
-          pill.classList.add('bg-primary', 'text-on-primary', 'font-bold');
-          pill.querySelector('span').textContent = '✓ ' + serviceName;
-        }
-
-        badge.textContent = selected.size + ' Selected';
-
-        if (selected.size === 0) {
-          feedback.innerHTML = `<span class="material-symbols-outlined text-primary text-[18px]">info</span><span>Tap any service above to automatically highlight your estimate package.</span>`;
-        } else {
-          const list = Array.from(selected).join(', ');
-          feedback.innerHTML = `<span class="material-symbols-outlined text-tertiary text-[18px]">thumb_up</span><span class="text-on-surface"><strong>Package Ready:</strong> Bundling ${list} for your on-site walkthrough.</span>`;
-        }
-      });
-    });
-  })();
-</script><footer class="w-full bg-surface-container px-margin-mobile pt-space-lg pb-space-xl flex flex-col gap-space-md"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md uppercase text-on-surface tracking-wide">Nix Family Builders LLC</span></div><p class="font-body-sm text-body-sm text-on-surface-variant italic">Transforming, maintaining, and improving your properties.</p></div><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[18px] text-tertiary">verified</span><span class="font-label-md text-label-md uppercase font-semibold">Licensed &amp; Fully Insured</span></div><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary">pin_drop</span><span class="">Local Service Area: County-Wide &amp; Surrounding Estates</span></div></div><div class="flex flex-wrap gap-space-sm pt-space-xs"><a class="min-h-[44px] flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md uppercase hover:bg-surface-container-high transition-colors shadow-[0_2px_0px_0px_rgba(30,34,36,0.06)]" href="tel:1234567890"><span class="material-symbols-outlined text-primary text-[18px]">phone</span><span class="">Call Contractor</span></a><a class="min-h-[44px] flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md uppercase hover:bg-surface-container-high transition-colors shadow-[0_2px_0px_0px_rgba(30,34,36,0.06)]" href="mailto:estimates@nixfamilybuilders.com"><span class="material-symbols-outlined text-tertiary text-[18px]">mail</span><span class="">Send Email</span></a></div><div class="pt-space-sm flex flex-col gap-space-xs font-body-sm text-body-sm text-outline"></div></footer></main><div class="fixed bottom-16 left-0 right-0 z-50 px-margin-mobile pb-2 pointer-events-auto hidden"><div class="rounded-xl bg-inverse-surface text-inverse-on-surface p-space-sm shadow-2xl border border-outline/30 flex items-center justify-between gap-space-sm"><div class="flex flex-col min-w-0"><div class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-inverse-primary font-bold">3 Services Selected</span></div><span class="font-body-sm text-body-sm text-inverse-on-surface/90 truncate">Roofing + Decks + Clearing</span></div><a class="min-h-[44px] shrink-0 px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-headline-sm text-[16px] uppercase tracking-wider flex items-center gap-space-xs shadow-md hover:bg-primary-container transition-transform active:scale-95" href="#request-estimate"><span class="">Get Bundled Quote</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a></div></div><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.06)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-margin-mobile"><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs transition-colors text-primary font-bold" data-path="services" href="#"><span class="material-symbols-outlined text-[22px]">construction</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Services</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="request-estimate" href="#"><span class="material-symbols-outlined text-[22px]">request_quote</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Quote</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[22px]">support_agent</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Contact</span></a></div></nav>
-
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('quote-form');
+      const success = document.getElementById('form-success');
+      if (form && success) {
+        form.classList.add('hidden');
+        success.classList.remove('hidden');
+      }
+    }
+  </script>
+</div><footer class="w-full bg-surface-container px-margin-mobile pt-space-lg pb-24 flex flex-col gap-space-md"><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md uppercase text-on-surface tracking-wide">Nix Family Builders LLC</span></div><p class="font-body-sm text-body-sm text-on-surface-variant italic">Transforming, maintaining, and improving your properties.</p></div><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><div class="flex items-center gap-space-xs text-on-surface"><span class="material-symbols-outlined text-[18px] text-tertiary">verified</span><span class="font-label-md text-label-md uppercase font-semibold">Licensed &amp; Fully Insured</span></div><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary">pin_drop</span><span class="">Local Service Area: County-Wide &amp; Surrounding Estates</span></div></div><div class="flex flex-wrap gap-space-sm pt-space-xs pb-space-sm"><a class="min-h-[44px] flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md uppercase hover:bg-surface-container-high transition-colors shadow-[0_2px_0px_0px_rgba(30,34,36,0.06)]" href="tel:1234567890"><span class="material-symbols-outlined text-primary text-[18px]">phone</span><span class="">Call Contractor</span></a><a class="min-h-[44px] flex items-center gap-space-xs px-space-md py-space-xs bg-surface-container-lowest text-on-surface rounded-lg font-label-md text-label-md uppercase hover:bg-surface-container-high transition-colors shadow-[0_2px_0px_0px_rgba(30,34,36,0.06)]" href="mailto:estimates@nixfamilybuilders.com"><span class="material-symbols-outlined text-tertiary text-[18px]">mail</span><span class="">Send Email</span></a></div><div class="pt-space-xs flex flex-col gap-space-xs font-body-sm text-body-sm text-outline"></div></footer></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.06)]" data-active-classes="text-primary font-bold"><div class="flex justify-around items-center h-16 px-margin-mobile"><a aria-current="page" class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs transition-colors text-primary font-bold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Home</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#"><span class="material-symbols-outlined text-[22px]">construction</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Services</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="request-estimate" href="#"><span class="material-symbols-outlined text-[22px]">request_quote</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Quote</span></a><a class="flex flex-col items-center justify-center min-h-[44px] min-w-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[22px]">support_agent</span><span class="font-label-sm text-label-sm uppercase tracking-wider">Contact</span></a></div></nav>
 
 </body></html>
